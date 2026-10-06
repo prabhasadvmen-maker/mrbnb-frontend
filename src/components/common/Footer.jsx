@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Globe, ArrowRight, Check, ShieldCheck, Award, Sparkles } from 'lucide-react';
 import { useApp } from '../../context/AppContext';
-import mrbnbLogo from '../../assets/mrbnb-logo.png';
+const mrbnbLogo = '/images/mrbnb-logo.png';
 
 export const Footer = () => {
   const { navigate, setIsSupportOpen } = useApp();

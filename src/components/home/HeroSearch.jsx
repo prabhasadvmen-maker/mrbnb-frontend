@@ -2,19 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { Search, MapPin, Calendar, Users } from 'lucide-react';
 import { useApp } from '../../context/AppContext';
 
-// Background images for rotating Hero section
-import heroBg1 from '../../assets/edc020124lauder-004-656776cf4986f.avif';
-import heroBg2 from '../../assets/wp4110663.jpg';
-import heroBg3 from '../../assets/86cdbbcd-4cec-4290-920e-9e65601e62b8.avif';
-import heroBg4 from '../../assets/winter_villa_reviews_bg.jpg';
-import heroBg5 from '../../assets/c72f97e6-aec7-4518-bffc-d99ecc201777.avif';
-
+// Background images for rotating Hero section from public/images
 const HERO_BACKGROUNDS = [
-  heroBg1,
-  heroBg2,
-  heroBg3,
-  heroBg4,
-  heroBg5
+  '/images/edc020124lauder-004-656776cf4986f.avif',
+  '/images/wp4110663.jpg',
+  '/images/86cdbbcd-4cec-4290-920e-9e65601e62b8.avif',
+  '/images/winter_villa_reviews_bg.jpg',
+  '/images/c72f97e6-aec7-4518-bffc-d99ecc201777.avif'
 ];
 
 export const HeroSearch = () => {

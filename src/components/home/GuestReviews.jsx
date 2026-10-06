@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
-import winterVillaBg from '../../assets/winter_villa_reviews_bg.jpg';
+const winterVillaBg = '/images/winter_villa_reviews_bg.jpg';
 
 export const GuestReviews = () => {
   const [currentPage, setCurrentPage] = useState(0);
